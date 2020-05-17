@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color:#40514E;
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+p{
+  text-align: center;
+  line-height: 2;
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color:#11999E;
+  text-align: center;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+}
+
+.middle-container {
+margin: 50px 0;
+}
+
+.bottom-container {
+  background-color:#66BFBF;
+  width:100%;
+  height: 100px;
+  margin:0;
+  padding-top: 40px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 370px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 360px;
+}
+.skill-row
+{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.draw-img{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+.skill-img{
+  width:25%;
+  float:right;
+  margin-left: 30px;
+}
+.my-img{
+  width:15%;
+  margin-top: 50px;
+}
+.about-me{
+  width:30%;
+  line-height: 2;
+  margin: auto;
+}
+hr
+{
+  border:dotted lightgrey 4px;
+  border-bottom: none;
+  width:5%;
+  border-spacing: inherit;
+  margin: 50px auto;
+}
+.myButton {
+	background:linear-gradient(to bottom, #11cdd4 5%, #2980b9 100%);
+	background-color:#11cdd4;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:13px 27px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #66BFBF 5%, #11999E 100%);
+	background-color:#2980b9;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.last-line{
+  color: #EAF6F6;
+  font-size:0.75rem;
+  padding: 20px 0;
+}
+a{
+  font-family: 'Montserrat', sans-serif;
+  color:#11999E;
+  margin: 10px;
+  text-decoration: none;
+}
+a:hover{
+  color:#EAF6F6;
+}
